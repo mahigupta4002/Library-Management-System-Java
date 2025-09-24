@@ -20,73 +20,54 @@ A Library Management System  allows you to keep the Library book records, Librar
 7. View Records
 8. About project
 
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
+Future Improvements
+Export issued book reports to a text file
+Add student login with password
+Store records in a database (MySQL + JDBC)
+Improve search functionality (by title, author, or ID
 
+I built a Library Management System in Java to practice Object-Oriented Programming concepts like encapsulation, inheritance, and polymorphism. The system allows adding, issuing, and returning books, and managing student records. I designed it with a simple menu-driven interface using Java classes and file handling for storage. While developing it, I focused on clean class design and applying OOP principles. I also identified improvements, like adding a search function and exporting reports, which I plan to extend in the future
 
+Library-Management-System-Java/
+│
+├── Book.java # Defines Book class and attributes
+├── Student.java # Defines Student class
+├── Library.java # Core library operations (add, remove, issue, return)
+├── Main.java # Entry point with menu-driven interface
+├── records.txt # (Optional) file to store issued/returned data
+└── README.md # Project documentation
 
-# User Interface Screenshots:
+ How to Run
+1. Clone this repository:
+   ```bas
+   git clone https://github.com/mahigupta4002/Library-Management-System-Java.git
+   cd Library-Management-System-Java
+Compile Java files:
+javac *.java
 
-### Login Page:
-![image](https://user-images.githubusercontent.com/70682152/187031828-d66aee54-21b5-438b-8069-6ae7acce3e0a.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
+Run the program:
+java Main
 
+Use the menu-driven interface to perform operations like:
 
+Add books
 
-### Dashboard Page:
-![image](https://user-images.githubusercontent.com/70682152/187031861-42257899-2330-4b27-a118-8edb5e1afa0f.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
+Issue/return books
 
-### Account Management Page:
-![image](https://user-images.githubusercontent.com/70682152/187031895-48d333de-5fda-4988-bc04-4c84c1a3edf2.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
+Manage student records
 
-### Manage Books Page:
-![image](https://user-images.githubusercontent.com/70682152/187031911-ffb69ae7-b6a9-4404-a0a2-8a6e996b1c81.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
+ Example Usage
+====== Library Menu ======
+1. Add Book
+2. Issue Book
+3. Return Book
+4. View Books
+5. Remove Book
+6. Exit
 
-### Manage Students Page:
-![image](https://user-images.githubusercontent.com/70682152/187031936-eca77f5c-6a39-4bfd-9532-83c43c7779ae.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-
-### Issue Book Page:
-![image](https://user-images.githubusercontent.com/70682152/187031970-87352f93-6478-4240-a44f-bd7b9236f618.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-### Return Book Page:
-![image](https://user-images.githubusercontent.com/70682152/187031997-19c9d22f-dd84-4d70-b669-f226d143362f.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-
-### View All Records Page:
-![image](https://user-images.githubusercontent.com/70682152/187032018-c9f94e2f-29c3-47a4-a6e3-3f516ee7474c.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-### About page:
-
-![image](https://user-images.githubusercontent.com/70682152/187032046-18ea97b4-f892-42c0-a01f-c39176fd6dd4.png)
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-#### credits: [Unique Developer](https://www.youtube.com/watch?v=v5NednBTtKY&list=PLjrrZBv_CFYQgCFsHTzfIqtypsWF2KBvJ)
+Enter choice: 1
+Enter Book ID: 101
+Enter Book Title: Java Programming
+Book added successfully!
 
 
